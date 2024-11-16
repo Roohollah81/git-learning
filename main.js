@@ -15,6 +15,10 @@ function add_user(name, age, city) {
   console.log(new_user);
 }
 
+function create_email() {
+  const text = "Hi. Welcome";
+}
+
 function main() {
   create_panel();
   add_user("ali", "20", "tabriz");
