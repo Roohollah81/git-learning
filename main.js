@@ -23,6 +23,10 @@ function send_email(text, from, to) {
   // sendEmail(from,to,text)
 }
 
+function generate_password() {
+  // password generated
+}
+
 function main() {
   create_panel();
   add_user("ali", "20", "tabriz");
