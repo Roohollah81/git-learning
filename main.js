@@ -9,6 +9,10 @@ function create_user_panel() {
 function add_user(name, age, city) {
   const panel_format = create_user_panel();
   let new_user = {};
+  for (let i in panel_format) {
+    new_user[i] = panel_format[i];
+  }
+  console.log(new_user);
 }
 
 function main() {
