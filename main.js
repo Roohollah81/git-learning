@@ -32,6 +32,10 @@ function generate_notification() {
     "Are you interested in receiving news from the SAAR site?";
 }
 
+function send_notification(notification_text) {
+  // page.show(notification_text);
+}
+
 function main() {
   create_panel();
   add_user("ali", "20", "tabriz");
