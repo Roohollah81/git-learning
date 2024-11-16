@@ -16,7 +16,7 @@ function add_user(name, age, city) {
 }
 
 function create_email() {
-  const text = "Hi. Welcome";
+  const text = "Hi. Welcome to SAAR website";
 }
 
 function send_email(text, from, to) {
@@ -25,6 +25,11 @@ function send_email(text, from, to) {
 
 function generate_password() {
   // password generated
+}
+
+function generate_notification() {
+  const notification_text =
+    "Are you interested in receiving news from the SAAR site?";
 }
 
 function main() {
