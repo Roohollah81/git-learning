@@ -36,6 +36,10 @@ function send_notification(notification_text) {
   // page.show(notification_text);
 }
 
+function call_to_cantacts() {
+  console.log("hello to my contacts");
+}
+
 function main() {
   create_panel();
   add_user("ali", "20", "tabriz");
