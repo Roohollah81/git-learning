@@ -1,3 +1,0 @@
-[submodule "git-learning-submodule"]
-	path = git-learning-submodule
-	url = ../git-learning-submodule.git
